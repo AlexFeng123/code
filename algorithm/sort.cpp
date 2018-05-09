@@ -28,6 +28,7 @@ void select_sort(std::vector<T> &v)
         if( min != i)
             std::swap(v[i],v[min]);
     }
+    selecgt
 }
 
 //stl select sort
