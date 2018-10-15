@@ -1,0 +1,1 @@
+cmd_/home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.ko /home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.o /home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.mod.o

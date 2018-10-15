@@ -1,0 +1,1 @@
+cmd_/home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.o := ld -m elf_x86_64   -r -o /home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/alex_dev.o /home/alexfeng/ede/ede/home/alexfeng/study/code/os/driver/device.o 
