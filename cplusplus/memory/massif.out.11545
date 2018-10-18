@@ -1,0 +1,730 @@
+desc: (none)
+cmd: ./bug_pt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2036139
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2950726
+mem_heap_B=134088
+mem_heap_extra_B=300608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4449026
+mem_heap_B=253952
+mem_heap_extra_B=899928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=6003426
+mem_heap_B=378304
+mem_heap_extra_B=1521688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=8082482
+mem_heap_B=393764
+mem_heap_extra_B=1592668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=9357697
+mem_heap_B=350108
+mem_heap_extra_B=1374388
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=10565624
+mem_heap_B=381816
+mem_heap_extra_B=1523448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=11987281
+mem_heap_B=263928
+mem_heap_extra_B=934008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=13939281
+mem_heap_B=420088
+mem_heap_extra_B=1714808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=15769538
+mem_heap_B=418596
+mem_heap_extra_B=1697868
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=16867538
+mem_heap_B=506436
+mem_heap_extra_B=2137068
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=18351938
+mem_heap_B=625188
+mem_heap_extra_B=2730828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=20326161
+mem_heap_B=781832
+mem_heap_extra_B=3514328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=21624986
+mem_heap_B=885732
+mem_heap_extra_B=4033828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=23159789
+mem_heap_B=944300
+mem_heap_extra_B=4326668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=24458616
+mem_heap_B=963776
+mem_heap_extra_B=4424048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=25943022
+mem_heap_B=1082524
+mem_heap_extra_B=5017788
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=27150222
+mem_heap_B=1179100
+mem_heap_extra_B=5500668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=28357422
+mem_heap_B=1275676
+mem_heap_extra_B=5983548
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=29896585
+mem_heap_B=1398804
+mem_heap_extra_B=6599188
+mem_stacks_B=0
+heap_tree=peak
+n2: 1398804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1319756 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 1319756 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 1319756 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 1319756 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 1319756 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 1319756 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 1319756 0x56EBEEB: clone (clone.S:109)
+ n0: 79048 in 4 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=21
+#-----------
+time=31405669
+mem_heap_B=1258420
+mem_heap_extra_B=5897268
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=32612934
+mem_heap_B=1172088
+mem_heap_extra_B=5465592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=33820163
+mem_heap_B=1250340
+mem_heap_extra_B=5856868
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=35027431
+mem_heap_B=1138036
+mem_heap_extra_B=5295348
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=36234699
+mem_heap_B=1025732
+mem_heap_extra_B=4733828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=37441975
+mem_heap_B=963380
+mem_heap_extra_B=4422068
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=38649175
+mem_heap_B=1059956
+mem_heap_extra_B=4904948
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=39856398
+mem_heap_B=1121388
+mem_heap_extra_B=5212108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=41835491
+mem_heap_B=1153824
+mem_heap_extra_B=5374552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=42909114
+mem_heap_B=1054028
+mem_heap_extra_B=4875572
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1054028 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 975036 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 975036 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 975036 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 975036 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 975036 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 975036 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 975036 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 6288 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=31
+#-----------
+time=43982769
+mem_heap_B=1040060
+mem_heap_extra_B=4805732
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=45056376
+mem_heap_B=1125948
+mem_heap_extra_B=5235172
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=46130015
+mem_heap_B=1186968
+mem_heap_extra_B=5540272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=47203639
+mem_heap_B=1087096
+mem_heap_extra_B=5040912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=48277264
+mem_heap_B=987224
+mem_heap_extra_B=4541552
+mem_stacks_B=0
+heap_tree=detailed
+n3: 987224 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 908232 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 908232 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 908232 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 908232 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 908232 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 908232 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 908232 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 6288 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=36
+#-----------
+time=49887710
+mem_heap_B=837660
+mem_heap_extra_B=3793732
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=50961334
+mem_heap_B=737788
+mem_heap_extra_B=3294372
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=52571770
+mem_heap_B=587980
+mem_heap_extra_B=2545332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=53645394
+mem_heap_B=488108
+mem_heap_extra_B=2045972
+mem_stacks_B=0
+heap_tree=detailed
+n3: 488108 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 409116 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 409116 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 409116 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 409116 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 409116 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 409116 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 409116 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 6288 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=40
+#-----------
+time=54719014
+mem_heap_B=388236
+mem_heap_extra_B=1546876
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=55792638
+mem_heap_B=288364
+mem_heap_extra_B=1047516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=57403073
+mem_heap_B=176924
+mem_heap_extra_B=490300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=58476679
+mem_heap_B=254844
+mem_heap_extra_B=880428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=59550319
+mem_heap_B=199012
+mem_heap_extra_B=601532
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=60623922
+mem_heap_B=284884
+mem_heap_extra_B=1030892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=62771122
+mem_heap_B=456660
+mem_heap_extra_B=1889772
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=64918322
+mem_heap_B=628436
+mem_heap_extra_B=2748652
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=65991945
+mem_heap_B=637164
+mem_heap_extra_B=2792292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=67602394
+mem_heap_B=694540
+mem_heap_extra_B=3079172
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=68517006
+mem_heap_B=618572
+mem_heap_extra_B=2699332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=69431616
+mem_heap_B=533492
+mem_heap_extra_B=2273932
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=70346226
+mem_heap_B=448412
+mem_heap_extra_B=1848532
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=71260815
+mem_heap_B=391664
+mem_heap_extra_B=1565056
+mem_stacks_B=0
+heap_tree=detailed
+n3: 391664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 312952 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 312952 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 312952 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 312952 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 312952 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 312952 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 312952 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 6008 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=54
+#-----------
+time=72175415
+mem_heap_B=464832
+mem_heap_extra_B=1930896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=73090040
+mem_heap_B=409772
+mem_heap_extra_B=1655596
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=74004657
+mem_heap_B=324692
+mem_heap_extra_B=1230196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=74919267
+mem_heap_B=239612
+mem_heap_extra_B=804796
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=75833877
+mem_heap_B=154532
+mem_heap_extra_B=379396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=76748488
+mem_heap_B=86556
+mem_heap_extra_B=39780
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=77663088
+mem_heap_B=159724
+mem_heap_extra_B=405620
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=78577719
+mem_heap_B=231984
+mem_heap_extra_B=769792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=79492319
+mem_heap_B=305152
+mem_heap_extra_B=1135632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=80406919
+mem_heap_B=378320
+mem_heap_extra_B=1501472
+mem_stacks_B=0
+heap_tree=detailed
+n3: 378320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 300240 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 300240 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 300240 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 300240 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 300240 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 300240 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 300240 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 5376 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=64
+#-----------
+time=81321519
+mem_heap_B=451488
+mem_heap_extra_B=1867312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=82236116
+mem_heap_B=423924
+mem_heap_extra_B=1729492
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=83150726
+mem_heap_B=338844
+mem_heap_extra_B=1304092
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=84065336
+mem_heap_B=253764
+mem_heap_extra_B=878692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=84979946
+mem_heap_B=168684
+mem_heap_extra_B=453292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=85894556
+mem_heap_B=83604
+mem_heap_extra_B=27892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=86809152
+mem_heap_B=146388
+mem_heap_extra_B=342076
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=87723752
+mem_heap_B=219556
+mem_heap_extra_B=707916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=88638352
+mem_heap_B=292724
+mem_heap_extra_B=1073756
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=89552952
+mem_heap_B=365892
+mem_heap_extra_B=1439596
+mem_stacks_B=0
+heap_tree=detailed
+n3: 365892 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 287868 0x4011BC: main::{lambda(int)#1}::operator()(int) const (malloc_test.cpp:18)
+  n1: 287868 0x40263F: void std::_Bind_simple<main::{lambda(int)#1} (int)>::_M_invoke<0ul>(std::_Index_tuple<0ul>) (functional:1700)
+   n1: 287868 0x40253E: std::_Bind_simple<main::{lambda(int)#1} (int)>::operator()() (functional:1688)
+    n1: 287868 0x4024AC: std::thread::_Impl<std::_Bind_simple<main::{lambda(int)#1} (int)> >::_M_run() (thread:115)
+     n1: 287868 0x510602E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+      n1: 287868 0x4E366A8: start_thread (pthread_create.c:333)
+       n0: 287868 0x56EBEEB: clone (clone.S:109)
+ n1: 72704 0x50D71FE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40105B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40106C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000D08: ??? (in /lib/x86_64-linux-gnu/ld-2.21.so)
+ n0: 5320 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=74
+#-----------
+time=90467552
+mem_heap_B=439060
+mem_heap_extra_B=1805436
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=91382171
+mem_heap_B=438252
+mem_heap_extra_B=1801396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=92296781
+mem_heap_B=353172
+mem_heap_extra_B=1375996
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=93211391
+mem_heap_B=268092
+mem_heap_extra_B=950596
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=94126001
+mem_heap_B=183012
+mem_heap_extra_B=525196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=95040611
+mem_heap_B=97932
+mem_heap_extra_B=99796
+mem_stacks_B=0
+heap_tree=empty

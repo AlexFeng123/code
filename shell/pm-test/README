@@ -1,0 +1,27 @@
+1 for pm test 
+usage: ./pm.sh <device_ip> <script> <image> <factory db> <first_reboot> <reboot_after_configure>
+max fp num of one port is 4000
+max port num of the device is 62
+max fp num of the device is 16000
+script = null mean do not exec configuration script
+image = null mean do not upgrade
+
+2 example 
+./pm.sh 10.190.9.40 config_full.ph ./f4-xg480-base-1.0.0-20180620.073713-369-arm8-64bit.tar.bz2 1 1 1 
+
+3 all script files should put in the same dir
+
+4 wait pm.sh flow running done
+  1) send some script files to device 
+  2) upgrade device with input image
+  3) factory db reboot
+  4) waiting device up
+  5) start config snc and start capture pm data
+  6) wait config done and capture pm data done;
+  7) get pm data from device
+  8) handle raw pm data(classify)
+  9) save pm data done 
+it will get pm data from device and handle it,
+and put the results into one dir. the dir like pm_test_data_20180811111122
+the format like pm_test_data_$(date +%Y%m%d%H%M%S)
+

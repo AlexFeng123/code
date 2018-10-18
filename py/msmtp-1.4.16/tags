@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+asn1time_to_time_t	./src/tls.c	/^int asn1time_to_time_t(const char *asn1time, int is_utc, time_t *t)$/;"	f
+hostname_match	./src/tls.c	/^int hostname_match(const char *hostname, const char *certname)$/;"	f
+is_leap	./src/tls.c	/^int is_leap(int year)$/;"	f
+openssl_io_error	./src/tls.c	/^char *openssl_io_error(int error_code, int error_code2, $/;"	f
+seed_prng	./src/tls.c	/^int seed_prng(char **errstr)$/;"	f
+tls_cert_info_free	./src/tls.c	/^void tls_cert_info_free(tls_cert_info_t *tci)$/;"	f
+tls_cert_info_get	./src/tls.c	/^int tls_cert_info_get(tls_t *tls, tls_cert_info_t *tci, char **errstr)$/;"	f
+tls_cert_info_new	./src/tls.c	/^tls_cert_info_t *tls_cert_info_new(void)$/;"	f
+tls_check_cert	./src/tls.c	/^int tls_check_cert(tls_t *tls, const char *hostname, int verify, char **errstr)$/;"	f
+tls_clear	./src/tls.c	/^void tls_clear(tls_t *tls)$/;"	f
+tls_close	./src/tls.c	/^void tls_close(tls_t *tls)$/;"	f
+tls_gets	./src/tls.c	/^int tls_gets(tls_t *tls, readbuf_t *readbuf, $/;"	f
+tls_init	./src/tls.c	/^int tls_init(tls_t *tls, $/;"	f
+tls_is_active	./src/tls.c	/^int tls_is_active(tls_t *tls)$/;"	f
+tls_lib_deinit	./src/tls.c	/^void tls_lib_deinit(void)$/;"	f
+tls_lib_init	./src/tls.c	/^int tls_lib_init(char **errstr)$/;"	f
+tls_puts	./src/tls.c	/^int tls_puts(tls_t *tls, const char *s, size_t len, char **errstr)$/;"	f
+tls_readbuf_read	./src/tls.c	/^int tls_readbuf_read(tls_t *tls, readbuf_t *readbuf, char *ptr, $/;"	f
+tls_start	./src/tls.c	/^int tls_start(tls_t *tls, int fd, const char *hostname, int no_certcheck, $/;"	f

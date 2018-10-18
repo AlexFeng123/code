@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.27809' (creator: callgrind-3.10.1)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 69538404
+Trigger: Program termination
+Profiled target:  ./bug_je (PID 27809, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   malloc_test.cpp
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+         Ir 
+--------------------------------------------------------------------------------
+329,421,384  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+         Ir  file:function
+--------------------------------------------------------------------------------
+127,970,142  /build/buildd/glibc-2.21/malloc/malloc.c:_int_malloc [/lib/x86_64-linux-gnu/libc-2.21.so]
+ 78,002,154  /build/buildd/glibc-2.21/malloc/malloc.c:_int_free [/lib/x86_64-linux-gnu/libc-2.21.so]
+ 46,000,848  /build/buildd/glibc-2.21/malloc/malloc.c:malloc [/lib/x86_64-linux-gnu/libc-2.21.so]
+ 32,000,306  /home/alexfeng/study/cplusplus/memory/malloc_test.cpp:main::{lambda(int) [/home/alexfeng/ede/ede/home/alexfeng/study/cplusplus/memory/bug_je]
+ 29,004,110  /build/buildd/glibc-2.21/malloc/malloc.c:free [/lib/x86_64-linux-gnu/libc-2.21.so]
+ 12,000,240  ???:operator new(unsigned long) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21]
+  2,000,044  ???:operator delete(void*) [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21]
+
+--------------------------------------------------------------------------------
+-- User-annotated source: malloc_test.cpp
+--------------------------------------------------------------------------------
+  No information has been collected for malloc_test.cpp
+

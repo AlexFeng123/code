@@ -1,0 +1,51 @@
+Total: 38 samples
+       7  18.4%  18.4%        7  18.4% operator delete[] (inline)
+       3   7.9%  26.3%        3   7.9% PackedCache::TryGet (inline)
+       3   7.9%  34.2%       37  97.4% main::{lambda#1}::operator
+       3   7.9%  42.1%        5  13.2% operator new (inline)
+       3   7.9%  50.0%        4  10.5% tcmalloc::CentralFreeList::ReleaseToSpans
+       2   5.3%  55.3%        2   5.3% SpinLock::SpinLoop
+       2   5.3%  60.5%        2   5.3% _init
+       2   5.3%  65.8%        2   5.3% tcmalloc::CentralFreeList::FetchFromOneSpans
+       2   5.3%  71.1%        2   5.3% tcmalloc::ThreadCache::GetThreadHeap (inline)
+       2   5.3%  76.3%        2   5.3% tcmalloc::ThreadCache::ReleaseToCentralCache (inline)
+       1   2.6%  78.9%        1   2.6% ProfileData::FlushTable
+       1   2.6%  81.6%        4  10.5% SpinLock::Lock (inline)
+       1   2.6%  84.2%        1   2.6% TCMalloc_PageMap2::get (inline)
+       1   2.6%  86.8%        5  13.2% tcmalloc::CentralFreeList::ReleaseListToSpans
+       1   2.6%  89.5%        6  15.8% tcmalloc::CentralFreeList::RemoveRange
+       1   2.6%  92.1%        1   2.6% tcmalloc::SizeMap::GetSizeClass (inline)
+       1   2.6%  94.7%        7  18.4% tcmalloc::ThreadCache::FetchFromCentralCache
+       1   2.6%  97.4%        1   2.6% tcmalloc::ThreadCache::GetFastPathCache (inline)
+       1   2.6% 100.0%        9  23.7% tcmalloc::ThreadCache::ReleaseToCentralCache
+       0   0.0% 100.0%        1   2.6% MapObjectToSpan (inline)
+       0   0.0% 100.0%        1   2.6% SLL_TryPop (inline)
+       0   0.0% 100.0%        3   7.9% SpinLock::SlowLock
+       0   0.0% 100.0%        1   2.6% SpinLockHolder (inline)
+       0   0.0% 100.0%       38 100.0% __clone
+       0   0.0% 100.0%        1   2.6% __nptl_deallocate_tsd (inline)
+       0   0.0% 100.0%        1   2.6% __nptl_deallocate_tsd.part.5
+       0   0.0% 100.0%        2   5.3% base::internal::HookList::empty (inline)
+       0   0.0% 100.0%       10  26.3% do_free (inline)
+       0   0.0% 100.0%        5  13.2% do_free_with_callback (inline)
+       0   0.0% 100.0%       12  31.6% free_fast_path (inline)
+       0   0.0% 100.0%       38 100.0% start_thread
+       0   0.0% 100.0%       37  97.4% std::_Bind_simple::_M_invoke
+       0   0.0% 100.0%       37  97.4% std::_Bind_simple::operator
+       0   0.0% 100.0%       37  97.4% std::this_thread::__sleep_for
+       0   0.0% 100.0%       37  97.4% std::thread::_Impl::_M_run
+       0   0.0% 100.0%       12  31.6% tc_free
+       0   0.0% 100.0%        5  13.2% tc_new
+       0   0.0% 100.0%        2   5.3% tcmalloc::CentralFreeList::FetchFromOneSpansSafe
+       0   0.0% 100.0%        6  15.8% tcmalloc::CentralFreeList::InsertRange
+       0   0.0% 100.0%        1   2.6% tcmalloc::PageHeap::GetDescriptor (inline)
+       0   0.0% 100.0%        3   7.9% tcmalloc::PageHeap::TryGetSizeClass (inline)
+       0   0.0% 100.0%        2   5.3% tcmalloc::ThreadCache::Allocate (inline)
+       0   0.0% 100.0%        1   2.6% tcmalloc::ThreadCache::Cleanup
+       0   0.0% 100.0%        4  10.5% tcmalloc::ThreadCache::Deallocate (inline)
+       0   0.0% 100.0%        1   2.6% tcmalloc::ThreadCache::DeleteCache
+       0   0.0% 100.0%        2   5.3% tcmalloc::ThreadCache::FreeList::PopRange (inline)
+       0   0.0% 100.0%        4  10.5% tcmalloc::ThreadCache::FreeList::Push (inline)
+       0   0.0% 100.0%        2   5.3% tcmalloc::ThreadCache::FreeList::TryPop (inline)
+       0   0.0% 100.0%        2   5.3% tcmalloc::ThreadCache::GetCacheIfPresent (inline)
+       0   0.0% 100.0%        8  21.1% tcmalloc::ThreadCache::ListTooLong

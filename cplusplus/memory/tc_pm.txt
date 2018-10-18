@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.27634' (creator: callgrind-3.10.1)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 40384657
+Trigger: Program termination
+Profiled target:  ./bug_tc (PID 27634, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   malloc_test.cpp
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+         Ir 
+--------------------------------------------------------------------------------
+249,459,729  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+        Ir  file:function
+--------------------------------------------------------------------------------
+57,982,720  ???:operator new(unsigned long) [???]
+57,017,421  ???:operator delete(void*) [???]
+44,114,947  ???:tcmalloc::CentralFreeList::ReleaseToSpans(void*) [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+32,000,306  /home/alexfeng/study/cplusplus/memory/malloc_test.cpp:main::{lambda(int) [/home/alexfeng/ede/ede/home/alexfeng/study/cplusplus/memory/bug_tc]
+20,059,136  ???:tcmalloc::CentralFreeList::FetchFromSpans() [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 9,220,757  ???:tcmalloc::CentralFreeList::RemoveRange(void**, void**, int) [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 7,211,665  ???:tcmalloc::CentralFreeList::Populate() [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 6,335,551  ???:tcmalloc::SizeMap::Init() [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 6,029,505  ???:tcmalloc::CentralFreeList::ReleaseListToSpans(void*) [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 4,101,950  ???:tcmalloc::ThreadCache::ReleaseToCentralCache(tcmalloc::ThreadCache::FreeList*, unsigned long, int) [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+ 1,433,906  ???:SpinLock::SpinLoop(long, int*) [/usr/lib/libtcmalloc_minimal.so.4.1.2]
+   853,397  /build/buildd/glibc-2.21/elf/dl-lookup.c:_dl_lookup_symbol_x [/lib/x86_64-linux-gnu/ld-2.21.so]
+   720,542  /build/buildd/glibc-2.21/elf/dl-lookup.c:do_lookup_x [/lib/x86_64-linux-gnu/ld-2.21.so]
+
+--------------------------------------------------------------------------------
+-- User-annotated source: malloc_test.cpp
+--------------------------------------------------------------------------------
+  No information has been collected for malloc_test.cpp
+
